@@ -1,5 +1,7 @@
 <Solution>
+  <Project Path="Business/Business.csproj" Id="e04f77e0-27d4-43fa-905e-b6b61774089f" />
   <Project Path="Core/Core.csproj" Id="eb9b9ad9-d2f2-41d2-bfb2-9a60586e8ad5" />
   <Project Path="Data/Data.csproj" />
+  <Project Path="UI/UI.csproj" Id="c67a9da0-9580-49d0-ba1b-d0cf3eab52f5" />
   <Project Path="Utils/Utils.csproj" Id="5239ca5a-dbce-44b9-8ec0-18bfbc74a8bf" />
 </Solution>

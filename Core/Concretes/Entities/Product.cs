@@ -25,8 +25,8 @@ namespace Core.Concretes.Entities
         // Navigation Properties
         public virtual Subcategory? Subcategory { get; set; }
         public virtual Brand? Brand { get; set; }
-        public virtual ICollection<ProductImage> Attributes { get; set; } = [];
-        public virtual ICollection<ProductAttribute> Images { get; set; } = [];
+        public virtual ICollection<ProductImage> Images { get; set; } = [];
+        public virtual ICollection<ProductAttribute> Attributes { get; set; } = [];
         public virtual ICollection<CartItem> CartItems { get; set; } = [];
         public virtual ICollection<ProductReview> Reviews { get; set; } = [];
     }
